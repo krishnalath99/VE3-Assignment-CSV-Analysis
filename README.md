@@ -26,5 +26,5 @@ This Django project allows users to upload CSV files, perform data analysis usin
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/yourusername/django-csv-analysis.git
+git https://github.com/krishnalath99/VE3-Assignment-CSV-Analysis.git
 cd django-csv-analysis
