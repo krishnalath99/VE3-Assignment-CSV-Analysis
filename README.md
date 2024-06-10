@@ -1,4 +1,4 @@
-# Django CSV Analysis
+# CSV Analysis
 
 This Django project allows users to upload CSV files, perform data analysis using pandas and numpy, and display the results and visualizations on a web interface.
 
@@ -7,7 +7,7 @@ This Django project allows users to upload CSV files, perform data analysis usin
 - Upload CSV files
 - Display the first few rows of the data
 - Calculate summary statistics (mean, median, standard deviation) for numerical columns
-- Identify and handle missing values
+- Identify, display and handle missing values
 - Generate basic plots (histograms) for numerical columns
 
 ## Setup Instructions
@@ -36,3 +36,28 @@ cd VE3-Assignment-CSV-Analysis
 virtualenv name_of_venv
 name_of_venv/Scripts/activate
 ```
+
+3. Install the Dependencies
+
+```sh
+pip install django
+pip install numpy
+pip install pandas
+pip install matplotlib
+pip install seaborn
+```
+
+4. Apply migrations:
+
+```sh
+python manage.py makemigrations
+python manage.py migrate
+```
+
+5. Run the development server:
+
+```sh
+python manage.py runserver
+```
+
+6. Open your web browser and go to http://127.0.0.1:8000/csv-analysis/ to use the application.
