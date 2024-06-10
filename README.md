@@ -27,4 +27,12 @@ This Django project allows users to upload CSV files, perform data analysis usin
 
 ```sh
 git https://github.com/krishnalath99/VE3-Assignment-CSV-Analysis.git
-cd django-csv-analysis
+cd VE3-Assignment-CSV-Analysis
+```
+
+2. Create a virtual environment and activate it:
+
+```sh
+virtualenv name_of_venv
+name_of_venv/Scripts/activate
+```
